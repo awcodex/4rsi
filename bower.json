@@ -1,0 +1,11 @@
+{
+	"name": "NeoMarketo",
+	"description": "Converting Mockups to HTML NeoMarketo Project", 
+	"version": "0.0.1", 
+	"authors": "Pradesga",
+	"private": true,
+	"license": "MIT",
+	"devDependencies": {
+		"bootstrap"	: "~3.3.6"
+	}
+}

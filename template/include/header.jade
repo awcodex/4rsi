@@ -1,0 +1,28 @@
+.navbar-wrapper
+	.container
+		nav.navbar.navbar-default.arsi-navbar.navbar-static-top
+			.row
+				.navbar-header.col-sm-4
+					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href='#') Project name
+				#navbar.navbar-collapse.collapse
+					ul.nav.navbar-nav.pull-right.col-sm-8
+						li
+							a(href='#') Discover
+						li
+							a.btn.btn-danger(href='#') Add Project
+						li.dropdown.text-center
+							a(data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Login
+							ul.dropdown-menu(aria-labelledby="dLabel")
+								li #[input.form-control(type="text" placeholder="User name")]
+								li #[input.form-control(type="password" placeholder="Password")]
+								li #[input.btn.btn-info.btn-block(type="submit" value="login")]
+						li.dropdown.small
+							a(data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") #[span.glyphicon.glyphicon-search]
+							ul.dropdown-menu(aria-labelledby="dLabel")
+								li #[input.form-control(type="text" placeholder="Search here..")]
+								li #[input.btn.btn-info.btn-block(type="submit" value="Search")]

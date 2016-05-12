@@ -1,0 +1,10 @@
+@import "./bower_components/font-awesome/scss/font-awesome";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+@import "layout/global";
+@import "layout/main";
+@import "layout/footer";
